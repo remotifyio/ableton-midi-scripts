@@ -1,0 +1,1072 @@
+[
+    {
+        "id": 0,
+        "type": "script",
+        "name": "Log device parameter names v2",
+        "script_id": 3,
+        "global_feedback": "default",
+        "global_feedback_active": "True",
+        "global_LED_on": "127",
+        "global_LED_off": "0",
+        "modifiers":
+        [
+            {
+                "id": "m1",
+                "name": "m1",
+                "tokenisedCode": "self.get_modifier_value(\"m1\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m2",
+                "name": "m2",
+                "tokenisedCode": "self.get_modifier_value(\"m2\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m3",
+                "name": "m3",
+                "tokenisedCode": "self.get_modifier_value(\"m3\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m4",
+                "name": "m4",
+                "tokenisedCode": "self.get_modifier_value(\"m4\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m5",
+                "name": "m5",
+                "tokenisedCode": "self.get_modifier_value(\"m5\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m6",
+                "name": "m6",
+                "tokenisedCode": "self.get_modifier_value(\"m6\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m7",
+                "name": "m7",
+                "tokenisedCode": "self.get_modifier_value(\"m7\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m8",
+                "name": "m8",
+                "tokenisedCode": "self.get_modifier_value(\"m8\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m9",
+                "name": "m9",
+                "tokenisedCode": "self.get_modifier_value(\"m9\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m10",
+                "name": "m10",
+                "tokenisedCode": "self.get_modifier_value(\"m10\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m11",
+                "name": "m11",
+                "tokenisedCode": "self.get_modifier_value(\"m11\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m12",
+                "name": "m12",
+                "tokenisedCode": "self.get_modifier_value(\"m12\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m13",
+                "name": "m13",
+                "tokenisedCode": "self.get_modifier_value(\"m13\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m14",
+                "name": "m14",
+                "tokenisedCode": "self.get_modifier_value(\"m14\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m15",
+                "name": "m15",
+                "tokenisedCode": "self.get_modifier_value(\"m15\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m16",
+                "name": "m16",
+                "tokenisedCode": "self.get_modifier_value(\"m16\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m17",
+                "name": "m17",
+                "tokenisedCode": "self.get_modifier_value(\"m17\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m18",
+                "name": "m18",
+                "tokenisedCode": "self.get_modifier_value(\"m18\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m19",
+                "name": "m19",
+                "tokenisedCode": "self.get_modifier_value(\"m19\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            },
+            {
+                "id": "m20",
+                "name": "m20",
+                "tokenisedCode": "self.get_modifier_value(\"m20\")",
+                "initialValue": 0,
+                "cat": "modifier",
+                "valueType": "all"
+            }
+        ],
+        "lists":
+        [
+            {
+                "id": "list1",
+                "name": "list1",
+                "tokenisedCode": "self.get_list(\"list1\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list2",
+                "name": "list2",
+                "tokenisedCode": "self.get_list(\"list2\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list3",
+                "name": "list3",
+                "tokenisedCode": "self.get_list(\"list3\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list4",
+                "name": "list4",
+                "tokenisedCode": "self.get_list(\"list4\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list5",
+                "name": "list5",
+                "tokenisedCode": "self.get_list(\"list5\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list6",
+                "name": "list6",
+                "tokenisedCode": "self.get_list(\"list6\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list7",
+                "name": "list7",
+                "tokenisedCode": "self.get_list(\"list7\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list8",
+                "name": "list8",
+                "tokenisedCode": "self.get_list(\"list8\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list9",
+                "name": "list9",
+                "tokenisedCode": "self.get_list(\"list9\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            },
+            {
+                "id": "list10",
+                "name": "list10",
+                "tokenisedCode": "self.get_list(\"list10\")",
+                "initialValue": "[]",
+                "cat": "custom list",
+                "valueType": "list"
+            }
+        ],
+        "script_attach_id": "3",
+        "file_name": "13_script.json",
+        "LED_mapping_type_needs_feedback": false,
+        "has_child": -1,
+        "python_version": "2.7"
+    },
+    {
+        "level": 0,
+        "has_child": -1,
+        "id": 1,
+        "type":
+        {
+            "id": 0,
+            "name": "Mode",
+            "type": "Mode",
+            "parent": null,
+            "has_child": -1,
+            "level": 0,
+            "icon": "fa-layer-group"
+        },
+        "parent_id": 0,
+        "name": "Mode 1",
+        "LED_feedback": "custom",
+        "LED_mapping_type_needs_feedback": false,
+        "LED_feedback_active": false,
+        "LED_on": 127,
+        "LED_off": 0,
+        "LED_send_feedback_to_selected":
+        []
+    },
+    {
+        "level": 1,
+        "has_child": 0,
+        "id": 2,
+        "type":
+        {
+            "id": 68,
+            "name": "Reaction",
+            "type": "Reaction_v2",
+            "parent": 0,
+            "has_child": 0,
+            "level": 1,
+            "icon": "fa-comments"
+        },
+        "parent_id": 1,
+        "name": "Log device parameter names",
+        "LED_mapping_type_needs_feedback": false,
+        "reaction_action_blocks":
+        [
+            {
+                "showConditions": false,
+                "showActions": true,
+                "loop":
+                {
+                    "full_code": "",
+                    "set_to_custom": false,
+                    "loopActive": false,
+                    "code": ""
+                },
+                "conditionGroups":
+                [],
+                "actions":
+                [
+                    {
+                        "full_code": "self.log_message(\"csslog:\" + str(self.song().view.selected_track.view.selected_device.name))",
+                        "set_to_custom": true,
+                        "element_menu":
+                        {
+                            "selectionMenuName": "scriptFunctions",
+                            "code": "self.log_message(\"csslog: \" + str(#value-to-display#))",
+                            "selectionObj":
+                            {
+                                "id": "display_in_css_log",
+                                "name": "display a value in CSS log",
+                                "cat": "script",
+                                "Parent": "script",
+                                "tokenisedCode": "self.log_message(\"csslog: \" + str(#value-to-display#))",
+                                "extraFields":
+                                [],
+                                "parameters":
+                                [
+                                    "value_to_display"
+                                ],
+                                "multitude_cats":
+                                [],
+                                "desc": "Displays a value in Control Surface Studio's log (Note: for this to function, ensure you have the 'log.txt location' setup correctly in Control Surface Studio's settings)",
+                                "returnsValueOfType": null,
+                                "notes": null
+                            },
+                            "extraFields":
+                            []
+                        },
+                        "extra_parameters":
+                        {
+                            "code": "",
+                            "parameters":
+                            [
+                                {
+                                    "parameterObj":
+                                    {
+                                        "id": "value_to_display",
+                                        "name": "Value To Display",
+                                        "desc": "The selected value will be displayed in Ableton Live's status bar",
+                                        "used in functions (for reference only)": null,
+                                        "placeholder": "Enter custom code",
+                                        "defaultType": "text",
+                                        "type": "custom",
+                                        "include_range_value_option": "y",
+                                        "value": "self.song().#tracks#.#devices#.#chains#.#chain-devices#.name",
+                                        "strReplace": "#value-to-display#",
+                                        "tweakVal": null,
+                                        "isOptional": null,
+                                        "includeTheseMenus":
+                                        [
+                                            "lomValues",
+                                            "inputVelocity",
+                                            "modifierList",
+                                            "loopValues",
+                                            "scriptValues",
+                                            "customCode"
+                                        ],
+                                        "selectionOptions":
+                                        [],
+                                        "displayIf": null
+                                    },
+                                    "value": "self.song().view.selected_track.view.selected_device.name",
+                                    "extraFields":
+                                    []
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "showConditions": false,
+                "showActions": true,
+                "loop":
+                {
+                    "full_code": "self.song().view.selected_track.view.selected_device.parameters",
+                    "set_to_custom": false,
+                    "loopActive": true,
+                    "code": "self.song().#tracks#.#devices#.#chains#.#chain-devices#.#param-list#",
+                    "selectionObj":
+                    {
+                        "id": "parameters",
+                        "name": "device parameters",
+                        "cat": "List",
+                        "parent": "List",
+                        "type": "property",
+                        "tokenisedCode": "self.song().#tracks#.#devices#.#chains#.#chain-devices#.#param-list#",
+                        "get": "y",
+                        "set": "n",
+                        "observe": "n",
+                        "valueType": "list",
+                        "desc": "List of Parameters",
+                        "extraFields":
+                        [
+                            "tracks",
+                            "track_num",
+                            "devices",
+                            "device_num",
+                            "chain_device_yes_no",
+                            "chains",
+                            "chain_num",
+                            "chain_devices",
+                            "chain_device_num",
+                            "param_list"
+                        ]
+                    },
+                    "selectionMenuName": "lists",
+                    "extraFields":
+                    [
+                        {
+                            "id": "tracks",
+                            "name": "Track Type",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": "selected track",
+                            "defaultType": "select",
+                            "type": "select",
+                            "include_range_value_option": "y",
+                            "value": "view.selected_track",
+                            "strReplace": "#tracks#",
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "extraFieldSelectOptions",
+                                "modifierList"
+                            ],
+                            "selectionOptions":
+                            [
+                                "_track",
+                                "_visible_track",
+                                "_relative_track",
+                                "_visible_and_relative_track",
+                                "_return",
+                                "_selected_track",
+                                "_master"
+                            ],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "track_num",
+                            "name": "Track Number",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": 1,
+                            "buttonDisplayName": null,
+                            "defaultType": "number",
+                            "type": "number",
+                            "include_range_value_option": "y",
+                            "value": "1",
+                            "strReplace": "#track-num#",
+                            "tweakVal": -1,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "modifierList",
+                                "customCode"
+                            ],
+                            "selectionOptions":
+                            [],
+                            "displayIf": "_track, _visible_track, _relative_track, _visible_and_relative_track, _return"
+                        },
+                        {
+                            "id": "devices",
+                            "name": "Device Type",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": "selected device",
+                            "defaultType": "select",
+                            "type": "select",
+                            "include_range_value_option": "y",
+                            "value": "view.selected_device",
+                            "strReplace": "#devices#",
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "extraFieldSelectOptions",
+                                "modifierList"
+                            ],
+                            "selectionOptions":
+                            [
+                                "_devices",
+                                "_selected_device",
+                                "_appointed_device"
+                            ],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "device_num",
+                            "name": "Device Number",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": 1,
+                            "buttonDisplayName": null,
+                            "defaultType": "number",
+                            "type": "number",
+                            "include_range_value_option": "y",
+                            "value": "1",
+                            "strReplace": "#device-num#",
+                            "tweakVal": -1,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [],
+                            "selectionOptions":
+                            [],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "chain_device_yes_no",
+                            "name": "Target device chain",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": null,
+                            "defaultType": "checkbox",
+                            "type": "checkbox",
+                            "include_range_value_option": "y",
+                            "value": null,
+                            "strReplace": null,
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [],
+                            "selectionOptions":
+                            [],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "chains",
+                            "name": "Chain Type",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": "chain",
+                            "defaultType": "select",
+                            "type": "select",
+                            "include_range_value_option": "y",
+                            "value": "chains[#chain-num#]",
+                            "strReplace": "#chains#",
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "extraFieldSelectOptions",
+                                "modifierList"
+                            ],
+                            "selectionOptions":
+                            [
+                                "_chains",
+                                "_return_chains"
+                            ],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "chain_num",
+                            "name": "Chain Number",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": 1,
+                            "buttonDisplayName": null,
+                            "defaultType": "number",
+                            "type": "number",
+                            "include_range_value_option": "y",
+                            "value": "1",
+                            "strReplace": "#chain-num#",
+                            "tweakVal": -1,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [],
+                            "selectionOptions":
+                            [],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "chain_devices",
+                            "name": "Chain Device",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": "device",
+                            "defaultType": "select",
+                            "type": "select",
+                            "include_range_value_option": "y",
+                            "value": "devices[#chain-device-num#]",
+                            "strReplace": "#chain-devices#",
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "extraFieldSelectOptions",
+                                "modifierList"
+                            ],
+                            "selectionOptions":
+                            [
+                                "_chain_devices"
+                            ],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "chain_device_num",
+                            "name": "Chain Device Number",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": 1,
+                            "buttonDisplayName": null,
+                            "defaultType": "number",
+                            "type": "number",
+                            "include_range_value_option": "y",
+                            "value": "1",
+                            "strReplace": "#chain-device-num#",
+                            "tweakVal": -1,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [],
+                            "selectionOptions":
+                            [],
+                            "displayIf": null
+                        },
+                        {
+                            "id": "param_list",
+                            "name": "Parameter List",
+                            "desc": null,
+                            "used in functions (for reference only)": null,
+                            "placeholder": null,
+                            "buttonDisplayName": "Parameters",
+                            "defaultType": "select",
+                            "type": "select",
+                            "include_range_value_option": "y",
+                            "value": "parameters",
+                            "strReplace": "#param-list#",
+                            "tweakVal": null,
+                            "isOptional": null,
+                            "includeTheseMenus":
+                            [
+                                "extraFieldSelectOptions",
+                                "modifierList"
+                            ],
+                            "selectionOptions":
+                            [
+                                "_param_list"
+                            ],
+                            "displayIf": null
+                        }
+                    ]
+                },
+                "conditionGroups":
+                [],
+                "actions":
+                [
+                    {
+                        "full_code": "path = self.song().view.selected_track.view.selected_device.parameters[loop_number]\ndata = []\ndata.append(str(loop_number) + \". \")\ndata.append(str(path.name) )\ndata.append(\" [ Min \" + str(path.min) )\ndata.append(\" | Max \" + str(path.max) )\ndata.append(\" | Current value \" + str(path.value) + \" ]\")\njoined = ''.join(data)\n\nself.log_message(\"csslog: \" + joined)",
+                        "set_to_custom": true,
+                        "element_menu":
+                        {
+                            "selectionMenuName": "scriptFunctions",
+                            "code": "self.log_message(\"csslog: \" + str(#value-to-display#))",
+                            "selectionObj":
+                            {
+                                "id": "display_in_css_log",
+                                "name": "display a value in CSS log",
+                                "cat": "script",
+                                "Parent": "script",
+                                "tokenisedCode": "self.log_message(\"csslog: \" + str(#value-to-display#))",
+                                "extraFields":
+                                [],
+                                "parameters":
+                                [
+                                    "value_to_display"
+                                ],
+                                "multitude_cats":
+                                [],
+                                "desc": "Displays a value in Control Surface Studio's log (Note: for this to function, ensure you have the 'log.txt location' setup correctly in Control Surface Studio's settings)",
+                                "returnsValueOfType": null,
+                                "notes": null
+                            },
+                            "extraFields":
+                            []
+                        },
+                        "extra_parameters":
+                        {
+                            "code": "",
+                            "parameters":
+                            [
+                                {
+                                    "parameterObj":
+                                    {
+                                        "id": "value_to_display",
+                                        "name": "Value To Display",
+                                        "desc": "The selected value will be displayed in Ableton Live's status bar",
+                                        "used in functions (for reference only)": null,
+                                        "placeholder": "Enter custom code",
+                                        "buttonDisplayName": "name",
+                                        "defaultType": "text",
+                                        "type": "button",
+                                        "include_range_value_option": "y",
+                                        "value": "self.song().#tracks#.#devices#.#chains#.#chain-devices#.#parameters#.name",
+                                        "strReplace": "#value-to-display#",
+                                        "tweakVal": null,
+                                        "isOptional": null,
+                                        "includeTheseMenus":
+                                        [
+                                            "lomValues",
+                                            "inputVelocity",
+                                            "modifierList",
+                                            "loopValues",
+                                            "scriptValues",
+                                            "customCode"
+                                        ],
+                                        "selectionOptions":
+                                        [],
+                                        "displayIf": null
+                                    },
+                                    "value": "self.song().view.selected_track.view.selected_device.parameters[loop_number].name",
+                                    "selectionObj":
+                                    {
+                                        "id": "device_parameter_name",
+                                        "name": "name",
+                                        "cat": "Device Parameter",
+                                        "parent": "Parameter",
+                                        "type": "property",
+                                        "tokenisedCode": "self.song().#tracks#.#devices#.#chains#.#chain-devices#.#parameters#.name",
+                                        "get": "y",
+                                        "set": "n",
+                                        "observe": "n",
+                                        "valueType": "symbol",
+                                        "desc": "The short parameter name as shown in the (closed) automation chooser.",
+                                        "extraFields":
+                                        [
+                                            "tracks",
+                                            "track_num",
+                                            "devices",
+                                            "device_num",
+                                            "chain_device_yes_no",
+                                            "chains",
+                                            "chain_num",
+                                            "chain_devices",
+                                            "chain_device_num",
+                                            "parameters",
+                                            "param_num"
+                                        ],
+                                        "originalCode": null,
+                                        "dev": null
+                                    },
+                                    "selectionMenuName": "lomList",
+                                    "extraFields":
+                                    [
+                                        {
+                                            "id": "tracks",
+                                            "name": "Track Type",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": "selected track",
+                                            "defaultType": "select",
+                                            "type": "select",
+                                            "include_range_value_option": "y",
+                                            "value": "view.selected_track",
+                                            "strReplace": "#tracks#",
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "extraFieldSelectOptions",
+                                                "modifierList"
+                                            ],
+                                            "selectionOptions":
+                                            [
+                                                "_track",
+                                                "_visible_track",
+                                                "_relative_track",
+                                                "_visible_and_relative_track",
+                                                "_return",
+                                                "_selected_track",
+                                                "_master"
+                                            ],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "track_num",
+                                            "name": "Track Number",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": 1,
+                                            "buttonDisplayName": null,
+                                            "defaultType": "number",
+                                            "type": "number",
+                                            "include_range_value_option": "y",
+                                            "value": "1",
+                                            "strReplace": "#track-num#",
+                                            "tweakVal": -1,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "modifierList",
+                                                "customCode"
+                                            ],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": "_track, _visible_track, _relative_track, _visible_and_relative_track, _return"
+                                        },
+                                        {
+                                            "id": "devices",
+                                            "name": "Device Type",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": "selected device",
+                                            "defaultType": "select",
+                                            "type": "select",
+                                            "include_range_value_option": "y",
+                                            "value": "view.selected_device",
+                                            "strReplace": "#devices#",
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "extraFieldSelectOptions",
+                                                "modifierList"
+                                            ],
+                                            "selectionOptions":
+                                            [
+                                                "_devices",
+                                                "_selected_device",
+                                                "_appointed_device"
+                                            ],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "device_num",
+                                            "name": "Device Number",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": 1,
+                                            "buttonDisplayName": null,
+                                            "defaultType": "number",
+                                            "type": "number",
+                                            "include_range_value_option": "y",
+                                            "value": "1",
+                                            "strReplace": "#device-num#",
+                                            "tweakVal": -1,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "chain_device_yes_no",
+                                            "name": "Target device chain",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": null,
+                                            "defaultType": "checkbox",
+                                            "type": "checkbox",
+                                            "include_range_value_option": "y",
+                                            "value": null,
+                                            "strReplace": null,
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "chains",
+                                            "name": "Chain Type",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": "chain",
+                                            "defaultType": "select",
+                                            "type": "select",
+                                            "include_range_value_option": "y",
+                                            "value": "chains[#chain-num#]",
+                                            "strReplace": "#chains#",
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "extraFieldSelectOptions",
+                                                "modifierList"
+                                            ],
+                                            "selectionOptions":
+                                            [
+                                                "_chains",
+                                                "_return_chains"
+                                            ],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "chain_num",
+                                            "name": "Chain Number",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": 1,
+                                            "buttonDisplayName": null,
+                                            "defaultType": "number",
+                                            "type": "number",
+                                            "include_range_value_option": "y",
+                                            "value": "1",
+                                            "strReplace": "#chain-num#",
+                                            "tweakVal": -1,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "chain_devices",
+                                            "name": "Chain Device",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": "device",
+                                            "defaultType": "select",
+                                            "type": "select",
+                                            "include_range_value_option": "y",
+                                            "value": "devices[#chain-device-num#]",
+                                            "strReplace": "#chain-devices#",
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "extraFieldSelectOptions",
+                                                "modifierList"
+                                            ],
+                                            "selectionOptions":
+                                            [
+                                                "_chain_devices"
+                                            ],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "chain_device_num",
+                                            "name": "Chain Device Number",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": 1,
+                                            "buttonDisplayName": null,
+                                            "defaultType": "number",
+                                            "type": "number",
+                                            "include_range_value_option": "y",
+                                            "value": "1",
+                                            "strReplace": "#chain-device-num#",
+                                            "tweakVal": -1,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "parameters",
+                                            "name": "Parameters",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": null,
+                                            "buttonDisplayName": "parameters",
+                                            "defaultType": "select",
+                                            "type": "select",
+                                            "include_range_value_option": "y",
+                                            "value": "parameters[#param-num#]",
+                                            "strReplace": "#parameters#",
+                                            "tweakVal": null,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [
+                                                "extraFieldSelectOptions",
+                                                "modifierList"
+                                            ],
+                                            "selectionOptions":
+                                            [
+                                                "_parameters"
+                                            ],
+                                            "displayIf": null
+                                        },
+                                        {
+                                            "id": "param_num",
+                                            "name": "Device Parameter Number",
+                                            "desc": null,
+                                            "used in functions (for reference only)": null,
+                                            "placeholder": 1,
+                                            "buttonDisplayName": "loop - iteration number",
+                                            "defaultType": "number",
+                                            "type": "button",
+                                            "include_range_value_option": "y",
+                                            "value": "loop_number",
+                                            "strReplace": "#param-num#",
+                                            "tweakVal": -1,
+                                            "isOptional": null,
+                                            "includeTheseMenus":
+                                            [],
+                                            "selectionOptions":
+                                            [],
+                                            "displayIf": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "showLoop": true
+            }
+        ],
+        "reaction_listeners":
+        [
+            {
+                "set_to_custom": false,
+                "reaction_listener": "control_id=1",
+                "custom_lom_listener": "",
+                "selectionObj":
+                {
+                    "id": "button_1",
+                    "name": "Button 1 was pressed",
+                    "MIDI_type": "cc",
+                    "MIDI_channel": 12,
+                    "MIDI_value": 3,
+                    "tokenisedCode": "self.midi_cc_ch_12_val_3",
+                    "valueType": "int",
+                    "value": "control_id=1",
+                    "desc": "Button 1 was pressed"
+                }
+            }
+        ],
+        "reaction_listeners_show_listeners": true,
+        "control": "default",
+        "control_type": "Absolute",
+        "control_type_takeover_mode": "None",
+        "control_type_on": 127,
+        "control_type_off": 0,
+        "control_type_first": 0,
+        "control_type_last": 127,
+        "control_type_reverse_mode": "False",
+        "control_type_left": 0,
+        "control_type_right": 127,
+        "control_type_steps": 20,
+        "control_type_switch": "Momentary",
+        "control_type_delay_amount": 0.5,
+        "controller_input_id": 1
+    }
+]

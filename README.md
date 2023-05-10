@@ -1,2 +1,2 @@
 # midi-scripts
-Our collection of preControl Surface Studio json files for creating Ableton MIDI remote scripts
+Our collection of json files, used in Control Surface Studio to create Ableton MIDI remote scripts
